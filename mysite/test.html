@@ -13,16 +13,19 @@
         html{
             height:100%;
         }
-        @keyframes myfirst {
-            from{background:red;}
-            to{background: green;}
+        @keyframes myfirst{
+            from {opacity:0.1;}
+            to {opacity:1;}
         }
-        h{
-            anmitions:myfirst 1s
+        h1,p{
+            animation: myfirst 2s infinite;
         }
     </style>
 </head>
 <body>
+<audio controls="controls">
+    <source src="wav/asd.wav" type="audio/mpeg" />
+</audio>
 <h1>静夜思</h1>
 <p>床前明月光，</p>
 <p>疑是地上霜。</p>
